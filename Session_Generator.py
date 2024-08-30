@@ -108,7 +108,7 @@ def generate_sessions(course):
                     elif building_code == 'SCH' and room_code == '501':
                         room_building_combination = f"501 SCH (0013)"
                     elif building_code == 'SCH' and room_code == '614':
-                        room_building_combination = f"614 SCH"
+                        room_building_combination = f"614 SCH Maevex"
                     elif building_code == 'SCEP' and room_code == '412':
                         room_building_combination = f"Davis Auditorium (PC 003)"
                     elif building_code == 'MUD' and room_code == '1024':
@@ -124,7 +124,7 @@ def generate_sessions(course):
                     elif building_code == 'MUD' and room_code == '627':
                         room_building_combination = f"627 MUDD Seneca"
                     elif building_code == 'MUD' and room_code == '1127':
-                        room_building_combination = f"1127 MUDD Seneca NEW"
+                        room_building_combination = f"1127 MUDD Seneca"
                     elif building_code == 'HAM' and room_code == '702':
                         room_building_combination = f"702 HAM"
                     elif building_code == 'MUD' and room_code == '545':
@@ -139,6 +139,12 @@ def generate_sessions(course):
                         room_building_combination = f"301 PUP Maevex"
                     elif building_code == 'MUD' and room_code == '633':
                         room_building_combination = f"633 MUDD Maevex"
+                    elif building_code == 'CHA' and room_code == '402':
+                        room_building_combination = f"402 CHA Maevex"
+                    elif building_code == 'PUP' and room_code == '329':
+                        room_building_combination = f"329 PUP Maevex"
+                    elif building_code == 'HAV' and room_code == '309':
+                        room_building_combination = f"309 HAV Maevex"
                     else:
                         room_building_combination = f"No existing recorder"
 
